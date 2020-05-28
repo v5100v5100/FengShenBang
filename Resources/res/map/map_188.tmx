@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="41" height="31" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <tileset firstgid="7" name="map_202" tilewidth="80" tileheight="80">
+  <image source="map_202.png" width="480" height="240"/>
+ </tileset>
+ <layer name="mac" width="41" height="31">
+  <data encoding="base64" compression="zlib">
+   eJztlTEOACAIA9H/P9rJWUFQ1Bs6aeDSNLSISEHoAdUE+7ss75p/s7NWGD31mo+782bdBSOMMMK4m/GGG+7VX7934exsr6xF5BFGGGGE8QTjDTdc23ERXTjyP4OPmdQAHXAFyA==
+  </data>
+ </layer>
+ <layer name="map" width="41" height="31">
+  <data encoding="base64" compression="zlib">
+   eJztl90KgzAMhb3bn3Obm+L7P+laaCGEmJzGFgbrxUEwp8lRpJ+dhmGYuproGvQhuhXWS3xoL65H0Eh0N+pvNidrAXzcw2dpGWciKWO8v6brqIj2QTwlGTciKSOtz4oQnzarVsaaapXxFHQWdAF83INmfJK1se9LqNM5vF7is2Yh7xJ9riPyzuoZ/yNj5NOS1kU2tGahNkt7rjGtkxiG8gth5sJmlbIws8HLL85UjYWb0Wvv+9AYhuy7KDNrcMbLLw8zvRk5w1B+Icz0stDiNcovxOdloZWxZE9DfJ79sWfsGbM4v/b6IJw7wkLrP1xj5R7narPQymixUuJcSxb2c6Evo7X3/8K5MOechHy5VvNcaHm+df5OFw==
+  </data>
+ </layer>
+</map>

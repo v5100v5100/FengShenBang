@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="33" height="33" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="map_033" tilewidth="80" tileheight="80">
+  <image source="map_033.png" width="560" height="400"/>
+ </tileset>
+ <tileset firstgid="36" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="macValue" value="0"/>
+    <property name="through" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="mac" width="33" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztlEsKwCAMRD2MSu9/wm5aKAHNzERLiy5mI2TyzC+nlPLW0iof8FFjC6gZDGhuhoVhuP3qpRZXNfI4mHo9c/RqkxsMrVwIg/dPT15f7BvSW5vDeo5g8OqA9K43LwqD9UEYDzCWYYjspc3v7a4yo+xtmHEv2Lv0RwbEj83PMCC+TL+VOjH/U/rG9iLKwXggN4hhUeJGzV+kfm/cqM0QZ1Bu0ah5iPopezGyrp6v6re1hk4P65qL
+  </data>
+ </layer>
+ <layer name="map" width="33" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztltsOgyAMhp076g7RuS1zx/d/y0ECSdMUKC3JEuPFdyO2/29pkbqqqnrmbzSCmNbFcdgz8nWFtBcKL1wPUL83nF1sijGzJin9nqkb8yL1gb99bdg4toReaN370OpbDoa34WP4Eh4a987RcCLqIfFwR3l8fs8TAdewh5wZqIlYz2C4OK6GHWJw+n5d4yHkBc/dDWGfPcB6CQ9LYk9jczoCD3iWVkIPlA8JGn2tl1LaEi8ltOH5TJ1vKQ+hfK9APup93282biTiYrXANYD5ukA+TKjfqVpAPe9Lmo/zjZL/jq0BPmu5/RLywf0Hwv8trkFOv8b2POQlpq2ZF46X1B1nSmdUK/CgucPl7HEM7T1O0l/aeYJo+yvlJRVfsr9ifVyyV2emxw86Ch49
+  </data>
+ </layer>
+</map>

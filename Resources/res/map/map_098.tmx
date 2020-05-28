@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="48" height="28" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="佳梦关2层切图" tilewidth="80" tileheight="80">
+  <image source="map_059.png" width="240" height="320"/>
+ </tileset>
+ <tileset firstgid="13" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="macValue" value="0"/>
+    <property name="through" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="mac" width="48" height="28">
+  <data encoding="base64" compression="zlib">
+   eJzt1cERgCAMBdE0AP2XSwPIYPIlwdnDu2lco6PNzBoAACinB47vTsr2tzOV11f3n94f+4/1z57LTe//7PyneV/3786u2u/Z/+qeVI2eHk9/1jdK0Z/pD/1Z/38AqGoAiHtEsA==
+  </data>
+ </layer>
+ <layer name="map" width="48" height="28">
+  <data encoding="base64" compression="zlib">
+   eJztldEOgzAIRat2Vfv/H+z2QEIIbFwtWR94OIlp8HpKaD1LKWeSJEkynIOB1j9llPsOZMr6/Saj/NFMWT+D/wv0b6z+87yCtIH+C8v1+lfm/+/5l/7bm/4FqtXmD5mpKH9Pb/qk/t7sbrzflDWLGf0PsSbnPdrfm2350/65P+9JtP+d+ee9Jddq+Ef9f7k7fc/jb/VW67F2hp/6U84KZmv+v+74SP8KZnYjJ8LR64Myk3+SJEkEF3eUK8I=
+  </data>
+ </layer>
+</map>

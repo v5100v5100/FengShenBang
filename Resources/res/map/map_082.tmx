@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="46" height="27" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="家东镇2切图" tilewidth="80" tileheight="80">
+  <image source="map_065.png" width="320" height="400"/>
+ </tileset>
+ <tileset firstgid="21" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="macValue" value="0"/>
+    <property name="through" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="30" name="map_265" tilewidth="80" tileheight="80">
+  <image source="map_265.png" width="1040" height="960"/>
+ </tileset>
+ <layer name="mac" width="46" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztlbENACAIBFlC9x/V3kSBJyAxX1xjRE4UHSIyCCGEkGbMC5E1Kn33cXSP0Tp4a2zx9uZBYxFvi0c3by3mtbenjrvz7Z6fzi7DG52vjWf0ZYV3JGfEW6tVR2/0nc72tvYWen8q/1BCCPmJBWEWZmY=
+  </data>
+ </layer>
+ <layer name="map" width="46" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztlesOwiAMhRtd4py6ucv7P6sz8cR6pAUZ8xckX7IRKKelLYOIDJVKpfInupWLwzXRzpa9OXqPK2eHe4KPlo2msC8dnXVz0Lp7x7/Q3lgcfqWns0YH1m35F9obi0OObpx1UDz/xdCNO/J8bF/7T4lxyNENOym6dV5pfbEB/a36LqWbEXXWvLLIZ15hjVfLALYaed/VnrqhN5RXWOPVMoBu+FFKN2Kq71Pr1b2Sc9jLc747XbsldMPGFIgx90rtF+4E/vLQ83vUZehd4LdEx4p7cE/zobzWo5TuWF1xX+Ye3NO8ldel8ztWV7EebNW3GPb37Ceht2QmFrLDa8Sxt0X3JN9aLJaIndFYk2OvUqlUSvMAjrlEmw==
+  </data>
+ </layer>
+ <layer name="map2" width="46" height="27">
+  <data encoding="base64" compression="zlib">
+   eJzt00sKgCAURuG7rFpAbqAV9Ji1/3mjCxZGv6SkcD5wIFzhKGUGAABqOD6e34tU5BvEuZBYa7RClbpnSrd6N3WuhE2YabFbsYhzrXXPt/1o1+/ctdb9Ju71u0w/teTo7Z1dr93qfwsASDsBu+QJVg==
+  </data>
+ </layer>
+</map>

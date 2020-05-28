@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="19" height="17" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <tileset firstgid="7" name="map_158" tilewidth="80" tileheight="80">
+  <image source="map_158.png" width="640" height="240"/>
+ </tileset>
+ <tileset firstgid="31" name="map_142" tilewidth="80" tileheight="80">
+  <image source="map_142.png" width="560" height="240"/>
+ </tileset>
+ <layer name="mac" width="19" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFVMFMBPj49BGLCZlLillMJJhFrNm4zGKDyrMRMIvcsCY1zCmxY6DNGsW0wQDmvQGA
+  </data>
+ </layer>
+ <layer name="map" width="19" height="17">
+  <data encoding="base64" compression="zlib">
+   eJztk0kKgDAMRbNznq2z3v+YphAhlKRVdOniEUg/r4UmBwAcH1K/QHJNSKzQKX3NVRIVQ/P3AddA2MxINUFSJKPaICuyIbvHFVGWswjYfk71qWtmLM655uJ314F3hVwFZQvmkrgzE4ZcRsi78P+9M6s234I8Ez7X1W+VPDgu3w5Jd3+5oz8yJ+MqHHc=
+  </data>
+ </layer>
+ <layer name="map2" width="19" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0BpoD7QDRgFBAABLmAAs
+  </data>
+ </layer>
+</map>

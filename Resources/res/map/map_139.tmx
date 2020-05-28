@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="23" height="18" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="map_226" tilewidth="80" tileheight="80">
+  <image source="map_226.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="17" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <layer name="mac" width="23" height="18">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEBzFgwILkShOjHmkYkrNJiRHC7fTMlxoFe6UpBFamU3IfGqkb1qZTY38MpzNHmwYAEqyG9M=
+  </data>
+ </layer>
+ <layer name="map" width="23" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzNlO0KgzAMRdNtXT9E9/5vuwoJ3GVR0ghjPw7RiqfprbYSUf0xycEVXxmsQGbWwDziE0cBl9Siag66n4Pb4A48eDwDXvf+Xht0ro3H8B6vW8CtPYvh7IzXnaDXoz5xPd69lOys9XdjTsmjONz4bZ355FmacKPfylbv64wXc0lkZ4xZzLp17jr7aM9W7mdE3OLf+9/o87/HsYi3gk940ffZEnX/O2/67AvS
+  </data>
+ </layer>
+</map>

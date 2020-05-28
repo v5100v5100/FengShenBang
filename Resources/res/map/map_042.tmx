@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="17" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="map_023" tilewidth="80" tileheight="80">
+  <image source="map_023.png" width="480" height="560"/>
+ </tileset>
+ <tileset firstgid="43" name="map_029" tilewidth="80" tileheight="80">
+  <image source="map_029.png" width="400" height="320"/>
+ </tileset>
+ <tileset firstgid="63" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <layer name="map" width="16" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzNz7sOgCAMheEKiuIl7o59/4e0AydpmhRxMDJ8MWf4ATMR5Q7s4lTIbNicfhWDwmbDUulnhc2GnvtDYbOh1l8Kmw2tveerPonRaYKIxeT0OCOqc0JDU/sX761PUvm+vfcPNx0rC+8=
+  </data>
+ </layer>
+ <layer name="map2" width="16" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjYBicwGKgHTAKRsEoIAgA0QAAOQ==
+  </data>
+ </layer>
+ <layer name="mac" width="16" height="17">
+  <data encoding="base64" compression="zlib">
+   eJyzZ2BgsB+E2GFUP931OxCBB7N+XGYMlfAfihgAHtVDGQ==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="28" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="map_214" tilewidth="80" tileheight="80">
+  <image source="map_214.png" width="320" height="320"/>
+ </tileset>
+ <tileset firstgid="17" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <tileset firstgid="23" name="map_265" tilewidth="80" tileheight="80">
+  <image source="map_265.png" width="1040" height="960"/>
+ </tileset>
+ <layer name="mac" width="32" height="28">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEBzFo3gUj+JBioXIwNS2nxL+cPD/qP0j135i3ENL+wab/aN4FI/iUTwcMADIfTvd
+  </data>
+ </layer>
+ <layer name="map" width="32" height="28">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEKgCAQRdFJISKl+v+vzcCFiGNNzWshExzCkK660BGRM8Y0xQ+0+iFbC71vAdSX0Oxfj0/m/PYPxtr9LdmTI///bozYv8RI/ekF1P57zXLeSOdf43qI+691ryxMv56L6nP+6Eto9CXrQfSMMTgnfA8L5Q==
+  </data>
+ </layer>
+ <layer name="map2" width="32" height="28">
+  <data encoding="base64" compression="zlib">
+   eJztzzENAAAIwDDkYQD/VrDABwmtgWURAHeV/uv+tul/LvcBYKoBxGcCRw==
+  </data>
+ </layer>
+</map>

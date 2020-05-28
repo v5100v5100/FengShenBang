@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="33" height="33" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="macValue" value="0"/>
+    <property name="through" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="10" name="map_021" tilewidth="80" tileheight="80">
+  <image source="map_021.png" width="480" height="480"/>
+ </tileset>
+ <layer name="map" width="33" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztV0FOw0AM3DNQCoQgQg8kQMgp//8eGylWR4PHXioOHDiMWjW7zow93nWXUspLxWfFo4Nlf66g9mUxcF9f8VrRif32XEHty2J09HxOOMwBBtCl9HoxmMOacFgDoC6l14vxmxxQl9JrMQ4VR+d90/45ilyeYP8txPB0Kb29+P4T/61Q92nnYjg68VlvK4dl1+z5DutuXNBv0bsGyGXGwXKQ1V35TX3HXLZwMM1R7ZXflF7MZcRhgf1Y+1PReWnVG/mT8+D1PNeG8xPpZe9uGAMOE8Q1T2NM1IE5i/Sqewb3qlpgXVUuMeeRXnXHeBwwblQDiz2LOC19rvZi3KgG7FMvn7Ym6nPFwVvH+jFHh/13dc5yn3v1Yk9m6zC3rAP1cx5b5ouWOck7Q/nuVT5ivZfOSegX5RHUjzXM3t8yJ3H/8fnk6ffqlM2Tl/iXZxZPv/Wol98BePTF968372RnpDp3MK835Xz/duW7LqWXNTEHVX/PR3j/Kg58FuE67PvWucze+VRxXfHs5I3jsM/wHue+72mNup823FXcVzw0cvBmOPS+9T3PDup+2vBW8V7x0ciB68beH2lt1NsY58rJZQuHqFeztRksFv6/iO4O7w7J1mbAWP/4G/gC5RJ5Aw==
+  </data>
+ </layer>
+ <layer name="mac" width="33" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztlUEOgDAIBFuN//+yJxMPCjsUGo0eSIy23WGl0Ftr/Y/HxCJ8vwuiYe2bxWDpKQwek5dvNoOa45sZIv+9goHUczbDlY5yJ6xnb72Sq/VezZHUl8en1lAWg1eXpD9lMNBzZjAQz8ldJz1B9WDEq4yz6Uwj2opHVfqEocp/T2c0/0j9ZudPewDpI5laFkPE55kM1hyMMihzuJIhMruOPesplHPIrCQ+bCAXclettV54tfzHN2MH5YwFQQ==
+  </data>
+ </layer>
+</map>

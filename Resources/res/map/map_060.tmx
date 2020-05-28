@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="31" height="27" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="九龙岛1切图" tilewidth="80" tileheight="80">
+  <image source="map_067.png" width="480" height="240"/>
+ </tileset>
+ <tileset firstgid="19" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <layer name="mac" width="31" height="27">
+  <data encoding="base64" compression="zlib">
+   eJwTZmBgEB7Fo3gUj+JRPOKwCBIeKHvpaT82e+ll/0i1eyDjG90N9LZzMNg9ikfxKCYeAwCiyT5E
+  </data>
+ </layer>
+ <layer name="map" width="31" height="27">
+  <data encoding="base64" compression="zlib">
+   eJzt0LkOgEAIRVHcIu6O//+xUjjJC1E7ME4oTkF1ASYiDiGED1WiBo1jdxQzmBz62D2AR7+HbgdyfzBu6y72rdvYa9Xs2dZKbS9if+gmsRm2c3+FHdI1W3fv/m/557f72fneEP7sBKAFGkQ=
+  </data>
+ </layer>
+</map>

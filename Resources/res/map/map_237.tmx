@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="13" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="map_089" tilewidth="80" tileheight="80">
+  <image source="map_089.png" width="400" height="320"/>
+ </tileset>
+ <tileset firstgid="21" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+    <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <tileset firstgid="27" name="map_059" tilewidth="80" tileheight="80">
+  <image source="map_059.png" width="240" height="240"/>
+ </tileset>
+ <layer name="map" width="16" height="13">
+  <data encoding="base64" compression="zlib">
+   eJzjZmBg4B4kmB2ImXFgDiL08uIwA6SXh4AZXEhmCAOxEBKG6eUioJ8Lqh5dvxCSPDH6+dAwKfrR9YKwIIX6+YjUDwsndL2wcMWnH6aXB0v88SKZgS8NYNOLbAYt0iwASHYIug==
+  </data>
+ </layer>
+ <layer name="map2" width="16" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFgw0oDLQDKAQKA+0AOgIAVkAAQQ==
+  </data>
+ </layer>
+ <layer name="mac" width="16" height="13">
+  <data encoding="base64" compression="zlib">
+   eJwTZWBgEB3FgwqLoWFK9JJqBqX6KXX/UMMA+m0RJQ==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="31" height="26" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="九龙岛第四层切图" tilewidth="80" tileheight="80">
+  <image source="map_073.png" width="480" height="560"/>
+ </tileset>
+ <tileset firstgid="43" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <tileset firstgid="49" name="map_265" tilewidth="80" tileheight="80">
+  <image source="map_265.png" width="1040" height="960"/>
+ </tileset>
+ <layer name="mac" width="31" height="26">
+  <data encoding="base64" compression="zlib">
+   eJzTZmBg0B7Fo3gUj2Io1sWBqWmHDhQTazc17dfBYz89/K+DB6Or1adRHONzAyE3UcNuYmha+ZvedhIb5gMZz8MpfQ2WMMBnP7Y0OYpH8SiGYACn5Ifa
+  </data>
+ </layer>
+ <layer name="map" width="31" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztlMEOgjAQRHtVPCjGgyIBTAT9/x90m+wkmwbamo4ne3hpQsm+bdlhdM6NlcqfchVuSrfxPKTLqJvDIOyVg6lrn4fY90rdRwV1/dka4S70K7D8g6kJP3hsuOGfiG74wUt4R3oodT+FU+R8vekBnHUtdcM/Z/TAPrcHeWq0pkusrfa6ELzeifnytS+RtSU4AXKM+UrdMzLI+Mcg37nf2GaQnbEUNoOMjM2Gb2adMedhL1t+zLff3/3AvXYXYAn2WfNeqbD4AE9JX4o=
+  </data>
+ </layer>
+ <layer name="map2" width="31" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztxSEBAAAIA7Cnon80Itxh2MwSALgzZQB+Wi3DANk=
+  </data>
+ </layer>
+</map>

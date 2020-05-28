@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="29" height="21" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="map_115" tilewidth="80" tileheight="80">
+  <image source="map_115.png" width="400" height="400"/>
+ </tileset>
+ <tileset firstgid="26" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <tileset firstgid="32" name="map_113" tilewidth="80" tileheight="80">
+  <image source="map_113.png" width="560" height="480"/>
+ </tileset>
+ <layer name="mac" width="29" height="21">
+  <data encoding="base64" compression="zlib">
+   eJyTYmBgkBrFo3gUk4WloRiXODY5atqJjY2NT6k7Ru2kr53EYFqkW2qpH8l2juJRTAoGADBsPiU=
+  </data>
+ </layer>
+ <layer name="map" width="29" height="21">
+  <data encoding="base64" compression="zlib">
+   eJztlN0KgzAMhTv/hnqhzul8/yc1hQSyQy3tWncx98GhJxo5GojG/PllmgPfQx/W2B/LRBrZj6xeeV1P6loKK2lhv4C/Q71Cz6c8SSX7gWXndlNq1D1Raib6CjKrxAxfZsFqlXfVRcZM8bV5/846MSMks4PM7guZZyM5rr1HQnpiMi0P0uw5c1Eq/yJtnlPeUT8Ty9H/Nle/C7vrMreQvY/td2F3XebWntB/JXaEqgXv
+  </data>
+ </layer>
+ <layer name="map2" width="29" height="21">
+  <data encoding="base64" compression="zlib">
+   eJyzY2BgsBvFwxaDgCIQK+FhK2Lhw9SQY6cmAwIgs4kBmlS2E91+bO6htp3EAErtNEBjYwMGaJiado4Ufw6UncRgatgJAsh5HhuN7CZ6pSHNAbITmU2OnSBASvlJqnpcZiADaqsfLHYOVwwAvnhu5Q==
+  </data>
+ </layer>
+</map>

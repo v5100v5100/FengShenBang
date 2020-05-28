@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="44" height="36" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="map_111" tilewidth="80" tileheight="80">
+  <image source="map_111.png" width="640" height="400"/>
+ </tileset>
+ <tileset firstgid="41" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <layer name="mac" width="44" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztlksOwCAIBbmOvf8Buzdog/ztW0xcARN8Jg4iGgAAcDlPANa+2TuT7jbb4zZXzrdyjrkelfc9+3q9ZS/f6nz5ajIZlV+rPEX4Snuu6qPyMJ/dfCv8E6J8d72q+mrehkd+T7IN356+lnj7SmpOZ/3Bl7t7b1+NqzSrqzuR9ogmay58a9LNF/C8BBT+7Q==
+  </data>
+ </layer>
+ <layer name="map" width="44" height="36">
+  <data encoding="base64" compression="zlib">
+   eJztl91ugzAMhdNlPwW2taPaENtuRvf+z1hHiqUjL6Q4GFpNvThK3aTl5PAB5uicO9500z9URdqQ7hYcK0O/nvRE2pK+Qduo3BzO59bUhrk2pB1pT/oF7aNyczifW2Ph18e996R2QXUz/WKuYe8/bh2GN66M4zrmeoAMwnfIoeTSqi7JuYZc27jnIORQcmlVl/qV2QaWr5XjWngLdSPyzjGYurdO5Xcw8tuKegqPyOTS/KLfAXLjDKbwiEwuza/MVz6LOjedy7D+k/QVxzX4lc+iXB9QCR+hfgOd25s1v4Mb589H4Xqs5bUqayu/PeSW47GJQr+N+K/Utci11f2hh5zlvEbI1m6kvja/YTxA3Yl5S799Yl7r99y93drvnF6tuoDfcL2X9l/+An65Ly7pv7APWcovn8M53OaeZ9Z++RzmuE0906a+T1j75XMYfCOT+DmVUynPWr+pHoB9I5P4OcW8lmc+rtavd397gJL7qqaHa+G4Wr/cA6z1Tsz883G1fj+iwl4fSfeK8UG5nkcPx9X6xZxfSc+K8UW5nseSXMdy1ui98Hdzcr3JXifcYoiy
+  </data>
+ </layer>
+</map>

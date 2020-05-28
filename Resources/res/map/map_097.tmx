@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="48" height="27" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="佳梦关1层切图" tilewidth="80" tileheight="80">
+  <image source="map_057.png" width="240" height="400"/>
+ </tileset>
+ <tileset firstgid="16" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="macValue" value="0"/>
+    <property name="through" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="25" name="map_265" tilewidth="80" tileheight="80">
+  <image source="map_265.png" width="1040" height="960"/>
+ </tileset>
+ <layer name="mac" width="48" height="27">
+  <data encoding="base64" compression="zlib">
+   eJzt0jsOACEIAFGOgPe/rI0lIn5iCJniFWuMDmZVRBQAgKLaMFuP8M6N7L1tt8637rO+6ad/1T/bl7Hf67TWd+/J9v70v5njZE5vvh//f7Q/O/oBoI4OPlVRnw==
+  </data>
+ </layer>
+ <layer name="map" width="48" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztlt0KgCAMRq2Uot/3f9t2I5hsNTF1wg58RCV2hrI0RlEURR5LgaTMX8N/Tgjmzx2b40/N35P/Ctkge+Q/QEZmMH/HHJvjjznG78I9hd1T/lT9Lfz92o/muQ8k+ns/zN925G+D71HrFNYoxf/NE3vO6cUt9n+K/1d/leAf90MJ/lRfjEPV6YIr5z8xFfKvnVxSzgYl8qf/ATkhV0f+iqIoJbkBeSoKPQ==
+  </data>
+ </layer>
+ <layer name="map2" width="48" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztzsENADAIAzHWZP9FOkNFgT4cyd/oMiIS4DMdu/nX/3769VemX//U9O9O/+70767aD9DpAG++JBg=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="33" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="05-西海龙宫切图" tilewidth="80" tileheight="80">
+  <image source="map_009.png" width="480" height="560"/>
+ </tileset>
+ <tileset firstgid="43" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <layer name="mac" width="32" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztlEsOwCAIRLmPvf/5um1M+AwUKQ2LWQHzRMRFRGvUTtdDVdxdGZ67fyTOnVXqIcK3zqwTnzuD1wvpEeVb76YLX4pH3sbw+TeL/lPW+s58NIbwtflp/p57quZb5izlT31+fXQ//8LX9v8E3yMvX8t7w8erLN+v8U/MfFSjG5Z5svw=
+  </data>
+ </layer>
+ <layer name="map" width="32" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztlsEOgjAMhhcSDEhABb2oB97/KS0JS5baf+2KcPLwhWSu/dzaDeYQwmxkMGDN5WHJXxNX4saetdNvWVPKneiJB3Fan/06Xpor+i9G4von4pwwJesvyeXxN0TL/O2K198asfibglyzEMNrtMWv5UL+dJ94TFXg5/vt8Vfhez2SfxByod7R/KiGsceRv1bqvdUfzzjy33f2x9+RX4v7hT/uMffXB/nRHi/jVSauxI9AubkHYfHn7kurH+XY6o/zRgGLn98lkl+r3+LqBEY2z5LP45fcEa/f0mfSvA6MS370/WHtM6meHRhHfj5vL790DyA/Rztnac93QT4DuXpraP2j9d/efvQfrP3+C78Hrz93n2t4/RzrNzU/R9J517DmfxIv4l0Q4/Xn3usIr//PsXwAdqhCoA==
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="35" height="33" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="0" tilewidth="80" tileheight="80">
+  <image source="map_002.png" width="400" height="560"/>
+ </tileset>
+ <tileset firstgid="36" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <layer name="mac" width="35" height="33">
+  <data encoding="base64" compression="zlib">
+   eJzt10sKACAIBFAPU/e/YiuXYf5oolnMSqGHhNEQkcE8kwlgUIfGqlcmaqmeKy3+/mjttsVzF3+ai9WTtdOyr53uSKsns3e7g/LW0UKL9yx0S5cvsks6LSh3iBZaXrZU/dVuBMmCnAUjZ6MA
+  </data>
+ </layer>
+ <layer name="map" width="35" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztl+kKAjEMhOvtrkf1/V/WLhgoMWebqqA/PgTTZocwHdoppTR9EZvCtmKn1CPBWo6FVcWs1COhvrUvrJ+/XH0E1LcOFVo9klYt98KV4WZYQ61v1QL/U14+MXs5cM9WLZyXI7Rc0IyzQQvlQ1gDc8PZYNHirUlenqu5STOK0rLMUfIizK1XyznpvtS8K/WyeB32c/no8a7WS/M67Ofy0eNdrRfV05utHu+25i7nR0w2rM1EXcpknB+jkc5MNFq2vVOLlm2UFks2t2pZzgWXJ1SWWLK5xw+eLLFkc48WT5aM8pA1T96pRbvTZWLPKC2evr+kRboj9N6PvVq877SRWrzvtE+eaeudoQfLfcP6VvvzygMCaCTG
+  </data>
+ </layer>
+</map>

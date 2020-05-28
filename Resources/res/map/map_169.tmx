@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="16" height="17" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="macValue" value="0"/>
+    <property name="through" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="10" name="map_220" tilewidth="80" tileheight="80">
+  <image source="map_220.png" width="560" height="320"/>
+ </tileset>
+ <tileset firstgid="38" name="map_265" tilewidth="80" tileheight="80">
+  <image source="map_265.png" width="1040" height="960"/>
+ </tileset>
+ <layer name="mac" width="16" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFWDETGeoJYUrsI1Yel72k6sfGpof9xPKpHf6Uxv9w008MBgCqPgFB
+  </data>
+ </layer>
+ <layer name="map" width="16" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzNktsKgCAQRHs3CgvD7tnl/3+xCXxYxGWlC7RwGMd20JWy7B+lwA42QRWTz0EHeqI68J3v4/IOrERt4J2Qn8AoIOVrZu46Mc/dg35PzS838oo5XyXmWzL3Qdat91+9/9P/rwIFKInqwBe+L1bXfAY0RG3gje+L1RBhZvbfrBOdwQ9e
+  </data>
+ </layer>
+ <layer name="map2" width="16" height="17">
+  <data encoding="base64" compression="zlib">
+   eJxLY2BgSBsEmBQwqn9U/6h+6uonFwMAgdUvBQ==
+  </data>
+ </layer>
+</map>

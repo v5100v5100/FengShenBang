@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="36" height="33" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="map_258" tilewidth="80" tileheight="80">
+  <image source="map_258.png" width="240" height="480"/>
+ </tileset>
+ <tileset firstgid="19" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <layer name="mac" width="36" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztlTEOACAIA/mD/v+t7sYBKMUYOzQuEk6hMMxsSNJjmptYOTrjfuc51XQ/xYOpi4fRbx4eZt5OHuRPWTxRbvH47onnPk9klmV5IrOZ7feqmZLlQfdGFU+lqtjZ+/yU4yZPNJ5Vn+x7Onk8nmb0MFrzaq918SCeQvz5qxY5/llA
+  </data>
+ </layer>
+ <layer name="map" width="36" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztmNsOgyAMQJkOd8uu//+xw0SSpittwQJu2cN5MAY4FGjRwTk3bJBjZ3r7eIDGZ0egGeNbfU4A7XrtAdoxLPePRxwAmrnX9jkDctbCymcCzHO9Bm6B+/Jc04nyGReizyPwDLw6+eD4ULT0STnkesC8stbHYq6cD86DLXy4mPbw0bjisf4+PL/g0zofcj4lOcXSB9dWX3k9Uz6UR3Sh3rfymWvY6D7rhpUPbi/VL6murqmv1Hy4+6rkEGM3ZcaKWn8rn0iJD26f8sHuGuAdjnOC/eL4WvqkYsWdUXzv0+znUiSX1JmQvr8s3LRofC4ZfWnh2vf+nyDl563wBk1wH6Y=
+  </data>
+ </layer>
+</map>

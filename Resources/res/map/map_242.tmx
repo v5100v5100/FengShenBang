@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="66" height="45" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="down" value="0"/>
+    <property name="macValue" value="0"/>
+    <property name="through" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="down" value="2"/>
+    <property name="macValue" value="1"/>
+    <property name="through" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="down" value="0"/>
+    <property name="macValue" value="1"/>
+    <property name="through" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="down" value="0"/>
+    <property name="macValue" value="1"/>
+    <property name="through" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="down" value="0"/>
+    <property name="macValue" value="1"/>
+    <property name="through" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="down" value="0"/>
+    <property name="macValue" value="1"/>
+    <property name="through" value="5"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="down" value="1"/>
+    <property name="macValue" value="1"/>
+    <property name="though" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="10" name="map_266" tilewidth="80" tileheight="80">
+  <image source="map_266.png" width="720" height="720"/>
+ </tileset>
+ <tileset firstgid="91" name="map_267" tilewidth="80" tileheight="80">
+  <image source="map_267.png" width="880" height="960"/>
+ </tileset>
+ <tileset firstgid="223" name="mac2" tilewidth="80" tileheight="80">
+  <image source="mac2.png" width="400" height="400"/>
+  <tile id="0">
+   <properties>
+    <property name="monsterId" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="monsterId" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="monsterId" value="3"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="monsterId" value="9"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="monsterId" value="18"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="monsterId" value="24"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="monsterId" value="36"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="monsterId" value="51"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="monsterId" value="54"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="monsterId" value="60"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="monsterId" value="68"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="monsterId" value="72"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="monsterId" value="82"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="monsterId" value="84"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="monsterId" value="85"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="monsterId" value="91"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="monsterId" value="92"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="monsterId" value="106"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="monsterId" value="107"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="monsterId" value="114"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="monsterId" value="116"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="monsterId" value="3"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="monster" width="66" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt1TsOgzAQQEHf/5L0tFwgdFiRsLMYtMiZYjqQ2Ic/Wylle6Flt3YsDZF31xfM2+rQm2ekw7fseUdbnP3fmTrULaJzRp/PnvOpNRLdL9lzja6RSIeZ1sOVtTHjvoi2aN0p9XvZc9zZ4swvDbNnyNZr9U900KFu4HyY677QYZx9cXRwTh4tsr8BAAAAAAAA6PsAAWX4xg==
+  </data>
+ </layer>
+ <layer name="macair" width="66" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEOgCAQAEG04f8/tjeoEMQjOMWUJNwKuKeU9knlB9uNlrV5gll7WvR0OIue841zUfq+K3b4okv0TKNatN6X6HlG9fhbh5qzsfK9qG1Ruy56/zPQAbjiffC/0KHcInoPAAAAAAAAALQ5AIMGGbA=
+  </data>
+ </layer>
+ <layer name="mac" width="66" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt2EEKgCAQQFEN73/mghZakNOoNDb+xd8ZNA9NKIUQ0oTFo00oVpKe3W7rrOetOfRYvHEos553hMXdRGswu0Np0bLnNeut55zlvFjP1btHNBae9kPL3vB4LrQWtbv1D/dmi8VTbwytZ7BOslopHM44F76+kzjgMCruzezAfZEtrN+BiIiIiIjIW9I/b+2/8L+28uw9Dl5NcKg7SOut3/tLh5W+FTjIs+KAAw444IADDtd2qYwqTQ==
+  </data>
+ </layer>
+ <layer name="map02" width="66" height="45">
+  <data encoding="base64" compression="zlib">
+   eJzt1EEKgCAQBVDvU+1qWd3/VikkzNKiguQ9+EvBUean9F9zzhIynpkazq45W87+2u2+U2cpie/Rw2x39fS/TxpS+470LHbHld7oTeyOGjsDAAAAAAAAAAAAFAe3DAd/
+  </data>
+ </layer>
+ <layer name="map01" width="66" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztl8EKgkAURedD6yPatXLTIqplRX9U7grdFfQtjaDwFEcnZ+I+pyscZhHCe8fLTQtjTKGI0rK07CzZCEPXN/dmCvbuI7dcPFyEeOiC3jnUhev5puJBujgJfuUFvauPi6XANyOua64eKm4CmZEhHyl6cGXENxv7+jx0zrl7aFz4dOnGtPvF1TXofWL46HapZG3a/SLZChfoPWK5cO1acTXtjpFdc6xdoHeIRd+eDa57ytrFWcH8SCoPb8tCwSxIGgep9MNUViad/wt6CEd+36NnQSLfw9CzoGlcoOfQQK5gBg2UCmbQAD0QQgghhJBQ7pbHhBM9d2yelteEEz0388A8MA/MAzoPvr+nwtjz/vc8sB/YD8wD88A8MA+SDxeZJ7o=
+  </data>
+ </layer>
+</map>

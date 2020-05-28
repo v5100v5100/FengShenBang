@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="17" height="20" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="map_140" tilewidth="80" tileheight="80">
+  <image source="map_140.png" width="560" height="240"/>
+ </tileset>
+ <tileset firstgid="22" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <tileset firstgid="28" name="map_265" tilewidth="80" tileheight="80">
+  <image source="map_265.png" width="1040" height="960"/>
+ </tileset>
+ <layer name="mac" width="17" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwTY2BgEBvFdMHiaGxxMs3AhYmxF5cZ0lBMrr3E+AWbO0kNB3EGTPcQaz8lYUiKGeTGLaF4G8pmjBQMAJJSHXc=
+  </data>
+ </layer>
+ <layer name="map" width="17" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztkksOgCAMBf2iiB+Mev+rWpMSG1JajBsXNpmw4Q0UWhTfLZ9BjmMFWmBk4BzcOWsiLznijAM2YAcMUgON4igJjmQvJkLK4fD8ClfDODpEcsS5gEfHjGiOHrDAEDm0vw0OG/Vt0XH1tuC+8ObSPajDEMf4wCEhzWfObGsznppHjjeOQ3H8ddcJvK4Hsw==
+  </data>
+ </layer>
+ <layer name="map2" width="17" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyLYWBgiBmkmBhACzPIAaNmjJpBjN7haMYoRmAAlSo+iQ==
+  </data>
+ </layer>
+</map>

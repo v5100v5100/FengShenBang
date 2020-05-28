@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="38" height="22" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="map_113" tilewidth="80" tileheight="80">
+  <image source="map_113.png" width="560" height="480"/>
+ </tileset>
+ <tileset firstgid="43" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="160"/>
+  <tile id="0">
+   <properties>
+    <property name="through" value="0"/>
+    <property name="macValue" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="through" value="1"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="through" value="2"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="through" value="3"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="through" value="4"/>
+    <property name="macValue" value="1"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="through" value="5"/>
+    <property name="macValue" value="1"/>
+   </properties>
+   
+  </tile>
+ </tileset>
+ <layer name="mac" width="38" height="22">
+  <data encoding="base64" compression="zlib">
+   eJzTZmBg0B7Fo3gUj2IisQ4OrI1EE4sNsJhhgCZOrLmE3IUuRop5+OwhN+zwuRkWBvjUEDKDFu4iJnyIiQ9quwuXGmq6Cz2tDhZ34dJLrrvQ7aVG3NEiPw43d43iUTyKBxYDAGi1jTA=
+  </data>
+ </layer>
+ <layer name="map" width="38" height="22">
+  <data encoding="base64" compression="zlib">
+   eJztlc1qw0AMhDeNS+O6NE4PKUlpHBdayPu/YBQiwaBoJbmhh4IPH2ZX62H0s/ZQShlmZv6YlngglsbTirUTtSL9mtYzsSP2xAezZzCGexktS8PS97SOxEh8MSMjsR+gderRgpbWqOl7vrbERrGA2DfQQL47PiPrS2xlaKyYnnmH2FRfm0qsg3yPfEbWl9ja0FgzvcLzdVB9qPk6wX4PNfDyEg3tJ+NL9yGql/iSGugzMm/CIeiH5wv78Jn0hTlv1Tt4J6M58XzJTGbmKzqD928MNCJfMpNTfcmdWqh3ZP3m9DnzXZWeZHxF32+rfnr9RDyW6zx7vk6lXme914Cufjbl9g5b9XwlXsp1nn/zf7Tq0YGufnYJPa93iJe/VY979TIaQ5C/VY979TIaM/+fM8yhSOQ=
+  </data>
+ </layer>
+</map>

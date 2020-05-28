@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="33" height="33" tilewidth="80" tileheight="80">
+ <tileset firstgid="1" name="05-西海龙宫切图" tilewidth="80" tileheight="80">
+  <image source="map_009.png" width="480" height="560"/>
+ </tileset>
+ <tileset firstgid="43" name="mac" tilewidth="80" tileheight="80">
+  <image source="mac.png" width="240" height="240"/>
+  <tile id="0">
+   <properties>
+    <property name="macValue" value="0"/>
+    <property name="through" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="2"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="3"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="4"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="macValue" value="1"/>
+    <property name="through" value="5"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="mac" width="33" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztlksKwCAMRL1Pi73/7bqVkN9ooiIuhlIQ8zpJhtZSSl2op3mu0GWQGd5Jkhis8z2yOHZniOo3yvCRPrX7a90fxaBlCDKzsxg4H05k8PitvXt7tjuD5ecMhpF5yGBAekRn0pI3q6knnm9D/124nKS1PBxIfYmBOyNxWH5FMWgcUm8zGCw/RoTuBbJ7WQyt/5kMURnhra8xIBmDZpJU7zL0zUNEPnAMPbs9mlHaXVfr9APUJrvf
+  </data>
+ </layer>
+ <layer name="map" width="33" height="33" opacity="0.96">
+  <data encoding="base64" compression="zlib">
+   eJzNl+sOwiAMRpkOpy7zkk1N1Pd/TjFhyRfSciugP05mZNJjVzoYlVLjH3D6EZTDuRGcQ6v46EE5bAyHBnAOe+Z+yfPm5lznzXHYGrThYrnCVdvxUg5U/XxZLJPhZtjZ6wRjEoc7xOXWrbbMhiMww5jEIaZ39AA64Pc1HDTwsHE6x6EDB7y/lMMCrGt3cBwGGKPuz3EIrW8qD6k9Qurgy0MpB1ybv8pDyKdFHjjW3/cEVH9LfWdxvm5OfP/N7W+hPYuvT7qxYjxS4nMOVB1wHqF8lXLweVDPt5ZDKB8SUtdFqBZzHHPWpq9nlXJI7RESB9/eHj/XPFOEHGrv6TkHHI/ts0/Dy/BWaecTNx7lEPs8cY8UW0u58Wo4cDUqOb9I6zS3trjzSEtwzyKd6wN+8THR
+  </data>
+ </layer>
+</map>
